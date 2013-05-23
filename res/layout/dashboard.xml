@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res/com.studiplaner"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:id="@+id/main_layout"
+	android:background="@color/background"
+	android:onClick="note">
+	<!-- <com.markupartist.android.widget.ActionBar
+		android:id="@+id/actionbar"
+		style="@style/ActionBar" /> -->
+	<include
+		layout="@layout/dashboard_categories" />
+</LinearLayout>

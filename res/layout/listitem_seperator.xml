@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:id="@+id/sepHeader"
+	android:layout_height="20px" android:background="#304545">
+	<TextView android:text="Montag" android:id="@+id/sepTitle"
+		android:layout_height="fill_parent" android:layout_width="fill_parent"
+		android:textSize="14dip" android:gravity="right|center_vertical" android:paddingRight="10dip" android:background="@color/seperator_color" android:textColor="@color/seperator_text_color"></TextView>
+</LinearLayout>

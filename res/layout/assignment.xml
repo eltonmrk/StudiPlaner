@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@+id/LinearLayout01"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@color/background">
+	<LinearLayout android:layout_height="fill_parent"
+		android:layout_width="fill_parent" android:padding="5dip"
+		android:orientation="vertical">
+		<TextView android:id="@+id/TextView01" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textSize="14dip"
+			android:textColor="@color/form_textcolor" android:text="@string/title"></TextView>
+		<EditText android:id="@+id/EditText01" android:layout_height="wrap_content"
+			android:textSize="14dip" android:layout_width="fill_parent"
+			android:singleLine="true"></EditText>
+		<TextView android:id="@+id/TextView01" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textSize="14dip"
+			android:textColor="@color/form_textcolor" android:text="@string/note"></TextView>
+		<EditText android:id="@+id/EditText01" android:layout_height="wrap_content"
+			android:textSize="14dip" android:layout_width="fill_parent"
+			android:lines="5"></EditText>
+		<TextView android:id="@+id/TextView01" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textSize="14dip"
+			android:textColor="@color/form_textcolor" android:text="@string/tags"></TextView>
+		<RelativeLayout android:id="@+id/LinearLayout02"
+			android:layout_width="fill_parent" android:gravity="center_vertical"
+			android:layout_height="wrap_content">
+			<EditText android:textSize="14dip"
+				android:layout_width="200dip" android:id="@+id/EditText01"
+				android:layout_height="wrap_content" android:lines="1"></EditText>
+			<TextView android:id="@+id/remove_note"
+				android:layout_alignParentRight="true"
+				android:text="+" android:layout_centerInParent="true"
+				android:gravity="center_vertical|center_horizontal"
+				android:background="#E01E10"
+				android:textColor="@color/form_textcolor" android:layout_marginRight="45dip" android:layout_height="30dip" android:layout_width="30dip" android:textStyle="bold" android:textSize="25dip"></TextView>
+			<TextView android:id="@+id/add_note"
+				android:layout_alignParentRight="true"
+				android:text="-" android:layout_centerInParent="true"
+				android:gravity="center_vertical|center_horizontal"
+				android:background="#39874C" android:textColor="@color/form_textcolor" android:layout_height="30dip" android:layout_width="30dip" android:textStyle="bold" android:textSize="25dip"></TextView>
+		</RelativeLayout>
+	</LinearLayout>
+</ScrollView>

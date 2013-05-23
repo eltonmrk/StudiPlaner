@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res/com.studiplaner"
+	android:id="@+android:id/tabhost">
+	<LinearLayout
+		android:id="@+id/LinearLayout01"
+		android:layout_height="fill_parent"
+		android:layout_width="fill_parent"
+		android:orientation="vertical">
+		<TabWidget
+			android:id="@android:id/tabs"
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent">
+		</TabWidget>
+		<FrameLayout
+			android:id="@android:id/tabcontent"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent">
+			<LinearLayout
+				android:id="@+id/content"
+				android:orientation="vertical"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:background="#5b5c66">
+			</LinearLayout>
+		</FrameLayout>
+	</LinearLayout>
+</TabHost>

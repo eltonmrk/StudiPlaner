@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+	<LinearLayout android:id="@+id/LinearLayout02"
+		android:layout_height="wrap_content" android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_marginTop="10px">
+		<TextView android:text="@+id/TextView02" android:id="@+id/TextView02"
+			android:layout_height="wrap_content" android:height="1px"
+			android:layout_width="fill_parent" android:background="@color/footer_background"></TextView>
+		<RelativeLayout android:id="@+id/LinearLayout03"
+			android:layout_height="wrap_content" android:layout_marginTop="5px"
+			android:layout_width="fill_parent">
+			<Button android:text="@string/cancel" android:id="@+id/cancel"
+				android:onClick="finish" style="@style/cancelButton"></Button>
+			<Button android:id="@+id/save" android:text="@string/save"
+				style="@style/saveButton"></Button>
+		</RelativeLayout>
+	</LinearLayout>
+</merge>

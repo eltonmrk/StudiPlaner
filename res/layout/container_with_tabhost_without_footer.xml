@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res/com.studiplaner"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:gravity="center_horizontal"
+	android:background="@color/background">
+	<com.markupartist.android.widget.ActionBar
+		android:id="@+id/actionbar"
+		style="@style/ActionBar" />
+	<TabHost
+		android:layout_width="fill_parent"
+		android:layout_below="@+id/actionbar"
+		android:layout_height="fill_parent"
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:app="http://schemas.android.com/apk/res/com.studiplaner"
+		android:id="@+android:id/tabhost">
+		<LinearLayout
+			android:id="@+id/LinearLayout01"
+			android:layout_height="fill_parent"
+			android:layout_width="fill_parent"
+			android:orientation="vertical">
+			<TabWidget
+				android:id="@android:id/tabs"
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent">
+			</TabWidget>
+			<FrameLayout
+				android:id="@android:id/tabcontent"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent">
+				<LinearLayout
+					android:id="@+id/content"
+					android:orientation="vertical"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:background="@color/background">
+				</LinearLayout>
+			</FrameLayout>
+		</LinearLayout>
+	</TabHost>
+</LinearLayout>

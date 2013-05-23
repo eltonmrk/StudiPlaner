@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<RelativeLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<Button
+			android:id="@+id/abort"
+			style="@style/cancel_button"
+			android:text="@string/cancel"
+			android:layout_alignParentLeft="true"
+			android:onClick="cancel" />
+		<Button
+			android:id="@+id/save"
+			style="@style/save_button"
+			android:onClick="save"
+			android:layout_alignParentRight="true"
+			android:text="@string/save" />
+	</RelativeLayout>
+</merge>

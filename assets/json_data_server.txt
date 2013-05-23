@@ -1,0 +1,270 @@
+[
+   {
+      "subject":[
+         {
+            "create":[
+               {
+                  "id":"1",
+                  "title":"Rechnernetze 2",
+                  "begin":"10:15:00",
+                  "end":"12:00:00",
+                  "day":"0",
+                  "place":"A-C 3010",
+                  "subject_type_id":null,
+                  "lecturer_id":null,
+                  "semester_id":"1",
+                  "deleted":null,
+                  "updated":null,
+                  "synchronized":null,
+                  "created":"2011-09-11 09:00:00",
+                  "cs_reference":null
+               },
+               {
+                  "id":"3",
+                  "title":"GTI",
+                  "begin":"16:00:00",
+                  "end":"18:00:00",
+                  "day":"0",
+                  "place":"H-A 2111",
+                  "subject_type_id":null,
+                  "lecturer_id":null,
+                  "semester_id":"1",
+                  "deleted":"1",
+                  "updated":null,
+                  "synchronized":null,
+                  "created":"2011-09-30 13:00:00",
+                  "cs_reference":null
+               }
+            ]
+         },
+         {
+            "update":[
+               {
+                  "id":"2",
+                  "title":"CG 2",
+                  "begin":"14:00:00",
+                  "end":"16:00:00",
+                  "day":"1",
+                  "place":"H-A 2121",
+                  "subject_type_id":null,
+                  "lecturer_id":null,
+                  "semester_id":"1",
+                  "deleted":null,
+                  "updated":"2011-09-23 14:02:00",
+                  "synchronized":"2011-09-23 08:00:00",
+                  "created":"2011-09-22 12:00:00",
+                  "cs_reference":null
+               }
+            ]
+         },
+         {
+            "deleted":[
+               {
+                  "id":"3",
+                  "title":"GTI",
+                  "begin":"16:00:00",
+                  "end":"18:00:00",
+                  "day":"0",
+                  "place":"H-A 2111",
+                  "subject_type_id":null,
+                  "lecturer_id":null,
+                  "semester_id":"1",
+                  "deleted":"1",
+                  "updated":null,
+                  "synchronized":null,
+                  "created":"2011-09-30 13:00:00",
+                  "cs_reference":null
+               }
+            ]
+         }
+      ]
+   },
+   {
+      "task_category":[
+         {
+            "create":[
+               {
+                  "id":"1",
+                  "title":"CG1",
+                  "created":"2011-09-12 08:15:00",
+                  "user_id":"1",
+                  "position":"1",
+                  "deleted":null,
+                  "updated":null,
+                  "synchronized":null,
+                  "cs_reference":null
+               },
+               {
+                  "id":"3",
+                  "title":"GTI",
+                  "created":"2011-09-16 09:30:00",
+                  "user_id":"1",
+                  "position":"3",
+                  "deleted":"1",
+                  "updated":null,
+                  "synchronized":null,
+                  "cs_reference":null
+               }
+            ]
+         },
+         {
+            "update":[
+               {
+                  "id":"2",
+                  "title":"RN2",
+                  "created":"2011-09-14 11:20:00",
+                  "user_id":"1",
+                  "position":"2",
+                  "deleted":null,
+                  "updated":"2011-09-16 13:00:00",
+                  "synchronized":"2011-09-14 12:00:00",
+                  "cs_reference":null
+               }
+            ]
+         },
+         {
+            "deleted":[
+               {
+                  "id":"3",
+                  "title":"GTI",
+                  "created":"2011-09-16 09:30:00",
+                  "user_id":"1",
+                  "position":"3",
+                  "deleted":"1",
+                  "updated":null,
+                  "synchronized":null,
+                  "cs_reference":null
+               }
+            ]
+         }
+      ]
+   },
+   {
+      "task":[
+         {
+            "create":[
+               {
+                  "id":"2",
+                  "title":"Schein bei Wisi abgeben",
+                  "note":"Unter die T\u00fcr schieben",
+                  "archived":null,
+                  "date":null,
+                  "task_category_id":"2",
+                  "position":"1",
+                  "deleted":null,
+                  "updated":null,
+                  "synchronized":null,
+                  "created":"2011-09-20 13:00:00",
+                  "cs_reference":null
+               },
+               {
+                  "id":"3",
+                  "title":"Anwesenheit notieren",
+                  "note":"Unbedingt das Buch suchen",
+                  "archived":null,
+                  "date":null,
+                  "task_category_id":"0",
+                  "position":"0",
+                  "deleted":"1",
+                  "updated":null,
+                  "synchronized":null,
+                  "created":"2011-09-22 07:00:00",
+                  "cs_reference":null
+               }
+            ]
+         },
+         {
+            "update":[
+               {
+                  "id":"1",
+                  "title":"B\u00fccher ausleihen",
+                  "note":"ISBN 2323232323, so?",
+                  "archived":null,
+                  "date":null,
+                  "task_category_id":"1",
+                  "position":"1",
+                  "deleted":null,
+                  "updated":"2011-09-11 16:00:00",
+                  "synchronized":"2011-09-11 15:00:00",
+                  "created":"2011-09-11 10:00:00",
+                  "cs_reference":null
+               }
+            ]
+         },
+         {
+            "deleted":[
+               {
+                  "id":"3",
+                  "title":"Anwesenheit notieren",
+                  "note":"Unbedingt das Buch suchen",
+                  "archived":null,
+                  "date":null,
+                  "task_category_id":"0",
+                  "position":"0",
+                  "deleted":"1",
+                  "updated":null,
+                  "synchronized":null,
+                  "created":"2011-09-22 07:00:00",
+                  "cs_reference":null
+               }
+            ]
+         }
+      ]
+   },
+   {
+      "subject_type":[
+         {
+            "create":[
+               {
+                  "id":"1",
+                  "title":"\u00dcbung",
+                  "user_id":"1",
+                  "deleted":null,
+                  "updated":null,
+                  "synchronized":null,
+                  "created":"2011-04-02 05:15:00",
+                  "cs_reference":null
+               },
+               {
+                  "id":"3",
+                  "title":"Seminar",
+                  "user_id":"1",
+                  "deleted":"1",
+                  "updated":null,
+                  "synchronized":null,
+                  "created":"2011-05-15 12:00:00",
+                  "cs_reference":null
+               }
+            ]
+         },
+         {
+            "update":[
+               {
+                  "id":"2",
+                  "title":"Vorlesung",
+                  "user_id":"1",
+                  "deleted":null,
+                  "updated":"2011-04-05 14:00:00",
+                  "synchronized":"2011-04-05 17:00:00",
+                  "created":"2011-04-05 12:10:00",
+                  "cs_reference":null
+               }
+            ]
+         },
+         {
+            "deleted":[
+               {
+                  "id":"3",
+                  "title":"Seminar",
+                  "user_id":"1",
+                  "deleted":"1",
+                  "updated":null,
+                  "synchronized":null,
+                  "created":"2011-05-15 12:00:00",
+                  "cs_reference":null
+               }
+            ]
+         }
+      ]
+   }
+]

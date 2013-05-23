@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   	<!-- dashboard categories -->
+   	<color name="cat_font">#454C5B</color>
+   	
+   	<!-- layout -->
+    <color name="background">#EFEFEF</color>
+    <color name="form_textcolor">#454C5B</color>
+    
+    <!-- footer -->
+    <color name="footer_background">#464D5B</color>
+    <color name="footer_text">#A4C639</color>
+  	<color name="footer_text_count">#464D5B</color>
+  	<color name="footer_text_count_background">#D1E29C</color>
+  	
+    <color name="summary_background">#000000</color>
+    <color name="summary_font">#000000</color>
+    <color name="summary_seperator">#000000</color>
+    
+    <color name="actionbar_background">#000000</color>
+    <color name="actionbar_title_font">#000000</color>
+    <color name="actionbar_seperator">#000000</color>
+    
+    <color name="schedulerNormalRow">#6e6f7a</color>
+    <color name="highlightRow">#D1E29C</color>
+    <color name="seperator_color">#D1E29C</color>
+    <color name="seperator_text_color">#464D5B</color>
+    <color name="listitem_title">#464D5C</color>
+    <color name="listitem_text_color">#454C5B</color>
+    <color name="listitem_background">#E4EBCD</color>
+    <color name="label">#A4C639</color>
+</resources>

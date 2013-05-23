@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	android:id="@+id/LinearLayout01"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/root_view">
+	<LinearLayout
+		android:layout_height="fill_parent"
+		android:layout_width="fill_parent"
+		android:orientation="vertical">
+		<TextView
+			style="@style/label"
+			android:text="@string/title" />
+		<EditText
+			style="@style/textfield"
+			android:singleLine="true"
+			android:id="@+id/assignment_title" />
+		<TextView
+			style="@style/label"
+			android:text="@string/note" />
+		<EditText
+			android:lines="5"
+			android:id="@+id/assignment_descr"
+			android:gravity="top"
+			style="@style/textfield" />
+		<TextView
+			android:id="@+id/TextView01"
+			style="@style/label"
+			android:text="@string/tags" />
+		<TextView
+			style="@style/label"
+			android:text="- Bitte durch Komma trennen" />
+		<EditText
+			android:lines="3"
+			android:id="@+id/assignment_tag"
+			style="@style/textfield" />
+		<include
+			layout="@layout/buttons" />
+	</LinearLayout>
+</ScrollView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:gravity="center_vertical|center_horizontal" android:background="@drawable/widget_frame_portrait" android:layout_height="100dp" android:layout_width="320dp">
+<ImageView android:id="@+id/ImageView01" android:background="@drawable/coffee" android:layout_marginLeft="15dip" android:layout_marginRight="15dip" android:layout_height="60dip" android:layout_width="60dip"></ImageView><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/empty_widget" android:text="@string/no_subjects_for_today" android:textSize="16dip" android:textColor="#794002" android:layout_marginRight="20dip"></TextView>
+
+</LinearLayout>

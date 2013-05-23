@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.studiplaner" android:versionCode="13" android:versionName="2.2.0">
+	<uses-sdk android:minSdkVersion="7" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<application android:icon="@drawable/studiplaner_logo"
+		android:label="@string/app_name"
+		android:debuggable="true">
+		<activity android:name=".ActivityHome" android:label="@string/app_name"
+			android:theme="@android:style/Theme.Light.NoTitleBar">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".ActivityImport" android:label="@string/app_name"
+			android:theme="@android:style/Theme.Light.NoTitleBar">
+		</activity>
+		<activity android:name=".ActivityExport" android:label="@string/app_name"
+			android:theme="@android:style/Theme.Light.NoTitleBar">
+		</activity>
+		<!-- Lecturers -->
+		<activity android:name=".SubActivities.Dozent.ActivityDozent"
+			android:label="@string/app_name" android:theme="@android:style/Theme.Light.NoTitleBar">
+		</activity>
+		<activity android:name=".SubActivities.Dozent.SubActivityDozentMod"
+			android:label="@string/app_name" android:theme="@android:style/Theme.Light.NoTitleBar">
+		</activity>
+		<activity android:name=".SubActivities.Dozent.SubActivityDozentModAdd"
+			android:label="@string/app_name" android:theme="@android:style/Theme.Light.NoTitleBar">
+		</activity>
+		<activity android:name=".SubActivities.Dozent.SubActivityDozentModEdit"
+			android:label="@string/app_name" android:theme="@android:style/Theme.Light.NoTitleBar">
+		</activity>
+		<!-- Subjects -->
+		<activity android:name=".SubActivities.Subject.SubActivitySubjectModEdit"
+			android:label="@string/app_name" android:theme="@android:style/Theme.Light.NoTitleBar">
+		</activity>
+		<activity android:name=".SubActivities.Subject.ActivitySubjects"
+			android:label="@string/app_name" android:theme="@android:style/Theme.Light.NoTitleBar">
+		</activity>
+		<activity android:name=".SubActivities.Subject.SubActivitySubjectModEdit"
+			android:label="@string/app_name" android:theme="@android:style/Theme.Light.NoTitleBar">
+		</activity>
+		<activity android:name=".SubActivities.Subject.SubActivitySubjectModAdd"
+			android:label="@string/app_name" android:theme="@android:style/Theme.Light.NoTitleBar">
+		</activity>
+		<!-- Semesters -->
+		<activity android:name=".SubActivities.Semester.SubActivitySemesterModAdd"
+			android:label="@string/app_name" android:theme="@android:style/Theme.Light.NoTitleBar">
+		</activity>
+		<activity android:name=".SubActivities.Semester.SubActivitySemesterModEdit"
+			android:label="@string/app_name" android:theme="@android:style/Theme.Light.NoTitleBar">
+		</activity>
+		<activity android:name=".SubActivities.Semester.ActivitySemester"
+			android:label="@string/app_name" android:theme="@android:style/Theme.Light.NoTitleBar">
+		</activity>
+		<!-- Scheduler -->
+		<activity android:name=".SubActivities.Scheduler.ActivityScheduler"
+			android:label="@string/app_name" android:theme="@android:style/Theme.Light.NoTitleBar">
+		</activity>
+		<activity android:name=".SubActivities.Scheduler.SubActivityDayScheduler"
+			android:label="@string/app_name" android:theme="@android:style/Theme.Light.NoTitleBar">
+		</activity>
+		<activity android:name=".SubActivities.Scheduler.SubActivityPostOnFacebook"
+			android:label="@string/app_name" android:theme="@android:style/Theme.Light.NoTitleBar">
+		</activity>
+		<!-- Notes -->
+		<activity android:name=".SubActivities.Notes.ActivityNotes"
+			android:label="@string/app_name" android:theme="@android:style/Theme.Light.NoTitleBar">
+		</activity>
+		<activity android:name=".SubActivities.Notes.SubActivityNotesModAdd"
+			android:label="@string/app_name" android:theme="@android:style/Theme.Light.NoTitleBar">
+		</activity>
+		<activity android:name=".SubActivities.Notes.SubActivityNotesModEdit"
+			android:label="@string/app_name" android:theme="@android:style/Theme.Light.NoTitleBar">
+		</activity>
+		<activity android:name=".SubActivities.Notes.SubActivityNotesMod"
+			android:label="@string/app_name" android:theme="@android:style/Theme.Light.NoTitleBar">
+		</activity>
+		<!-- Generic -->
+		<activity android:name=".db.ActivityDB" android:label="@string/app_name"
+			android:theme="@android:style/Theme.Light.NoTitleBar">
+		</activity>
+		<activity android:name=".db.ListActivityDB" android:label="@string/app_name"
+			android:theme="@android:style/Theme.Light.NoTitleBar">
+		</activity>
+		<activity android:name=".db.TabActivityDB" android:label="@string/app_name"
+			android:theme="@android:style/Theme.Light.NoTitleBar">
+		</activity>
+	</application>
+</manifest>

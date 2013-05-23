@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:orientation="vertical"
+	android:gravity="center_horizontal" android:layout_height="wrap_content">
+	<LinearLayout android:id="@+id/LinearLayout01"
+		android:background="#5d433a" android:layout_width="fill_parent"
+		android:weightSum="1.0" android:layout_height="35dip">
+		<TextView android:id="@+id/note_holder" android:text="Fach"
+			android:background="#5d433a"
+			android:textColor="#ffffff" android:textStyle="bold" android:gravity="left|center_vertical"
+			android:paddingLeft="15px" android:layout_width="0dip"
+			android:layout_weight="0.5" android:layout_height="fill_parent" android:textSize="14dip"></TextView>
+		<LinearLayout android:id="@+id/LinearLayout02"
+			android:layout_width="0dip" android:layout_weight="0.5"
+			android:layout_height="fill_parent" android:gravity="right|center_vertical"
+			android:paddingRight="10px">
+			<ImageView android:background="@drawable/checked"
+				android:id="@+id/checked" android:layout_height="17px"
+				android:layout_width="17px"></ImageView>
+		</LinearLayout>
+	</LinearLayout>
+	<TextView android:id="@+id/note_content" android:layout_width="fill_parent"
+		android:text="Ich bin ein Fülltext, fülltext, fülltext"
+		android:gravity="center_vertical" android:layout_height="wrap_content"
+		android:background="#fbf680"
+		android:textColor="#87472c" android:textSize="14dip" android:paddingLeft="15dip" android:paddingRight="15dip" android:minHeight="30dip"></TextView>
+</LinearLayout>

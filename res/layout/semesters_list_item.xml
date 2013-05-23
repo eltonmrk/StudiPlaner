@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent"
+	android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:id="@+id/listitem">
+	<LinearLayout android:id="@+id/LinearLayout01"
+		android:layout_width="fill_parent" android:gravity="center_vertical"
+		android:background="#6e6f7a" android:layout_height="40px">
+		<LinearLayout android:id="@+id/LinearLayout03"
+			android:orientation="vertical"
+			android:layout_height="fill_parent" android:layout_marginLeft="10dip" android:layout_width="wrap_content" android:gravity="center_vertical">
+			<TextView android:text="@+id/TextView01"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:gravity="center_vertical" android:id="@+id/listitem_txt"
+				android:textColor="#ffffff" android:textSize="14dip"></TextView>
+			<LinearLayout android:id="@+id/LinearLayout04"
+				android:layout_width="wrap_content" android:layout_height="wrap_content">
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:id="@+id/subject_count"
+					android:text="0" android:textColor="#f46708" android:textSize="14dip"></TextView>
+				<TextView android:id="@+id/TextView02"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:layout_marginLeft="3px" android:text="@string/subjects"
+					android:textSize="14dip" android:textColor="#8d8ea0"></TextView>
+			</LinearLayout>
+		</LinearLayout>
+		<LinearLayout android:id="@+id/LinearLayout02"
+			android:layout_height="fill_parent" android:gravity="right|center_vertical"
+			android:layout_width="fill_parent">
+			<ImageButton android:background="@drawable/export_icon"
+				android:id="@+id/export_bt" android:layout_width="35dip" android:layout_height="35dip" android:layout_marginRight="10dip"></ImageButton>
+			<ImageButton android:id="@+id/delete_bt"
+				android:background="@drawable/delete_icon"
+				android:layout_height="35dip" android:layout_width="35dip" android:layout_marginRight="10dip"></ImageButton>
+			<ImageButton android:id="@+id/edit_bt"
+				android:background="@drawable/note" android:layout_width="35dip" android:layout_height="35dip" android:layout_marginRight="10dip"></ImageButton>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

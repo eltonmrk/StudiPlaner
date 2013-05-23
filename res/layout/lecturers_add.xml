@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res/com.studiplaner"
+	style="@style/root_view">
+	<LinearLayout
+		android:layout_height="fill_parent"
+		android:orientation="vertical"
+		android:layout_width="fill_parent">
+		<TextView
+			style="@style/label"
+			android:text="@string/name" />
+		<EditText
+			android:id="@+id/profName"
+			style="@style/textfield" />
+		<TextView
+			android:text="@string/room"
+			style="@style/label" />
+		<EditText
+			style="@style/textfield"
+			android:id="@+id/profRoom" />
+		<TextView
+			android:text="E-Mail"
+			style="@style/label" />
+		<EditText
+			android:id="@+id/profMail"
+			style="@style/textfield" />
+		<include
+			layout="@layout/buttons" />
+	</LinearLayout>
+</ScrollView>

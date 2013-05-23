@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="days">
+     	<item name="0">@string/su_long</item>
+        <item name="1">@string/mo_long</item>
+        <item name="2">@string/tu_long</item>
+        <item name="3">@string/wed_long</item>
+        <item name="4">@string/thu_long</item>
+        <item name="5">@string/fr_long</item>
+        <item name="6">@string/sa_long</item>
+    </string-array>
+    <string-array name="event_type">
+     	<item name="0">@string/exercice</item>
+        <item name="1">@string/lecture</item>
+        <item name="2">@string/seminar</item>
+        <item name="3">@string/practical</item>
+        <item name="4">@string/studygroup</item>
+        <item name="5">@string/classSub</item>
+        <item name="6">@string/subject</item>
+    </string-array>
+</resources>
