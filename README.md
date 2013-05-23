@@ -13,4 +13,4 @@ Features:
 - Task Management.
 - ActionBar and QuickAction Navigation.
 
-The app ist backward compatibile to Android Version 2.2.0.
+The app ist backward compatibile to Android Version 2.2.0. Feel free to expand the app :)
